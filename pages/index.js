@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Suliman's portfolio</title>
+        <title>Suliman portfolio</title>
       </Head>
       <div className=" md:container md:mx-auto">
         {/* <ThemeSwitcher /> */}

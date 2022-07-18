@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <div className="flex flex-col content-center justify-center items-center pt-20">
-      <p className="font-light">Hello, I'am </p>
+      <p className="font-light">Hello, I am </p>
       <h1 className="text-3xl font-bold">Suliman Alfowzan</h1>
       <p className="font-light">Frontend Developer</p>
       <div className="flex flex-row space-x-4 text-xl mt-3">
