@@ -21,6 +21,7 @@ module.exports = {
       sans: ["Tajawal", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
+    darkMode: "class",
     extend: {},
   },
   plugins: [],
