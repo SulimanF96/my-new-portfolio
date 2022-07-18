@@ -1,23 +1,24 @@
 import Image from "next/image";
 import Project from "./Project";
+import mojadwelImg from "../../public/mojadwel.png";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center justify-items-center m-20">
-      <Project>
+    <div className="space-y-10">
+      <Project link="https://mojadwel.com">
         {{
-          image: (
-            <Image
-              src="/mojadwel.png"
-              className="h-48 w-full object-cover md:h-full md:w-48"
-              height={100}
-              width={100}
-            />
-          ),
           type: "Personal",
           title: "Mojadwel",
           decription:
-            "fgfsjgiohdfiughiofsdhgiourgoirehgoirhogirehogirehgoirehsgsd",
+            "Mojadwel is a web app for students which provide them with many features and tools one of which is scheduling from a selected set of courses then chosing from a recomnded list of schedules from the system(currently working only with computer and information sciences college from Imam mohammd bin saud university ).",
+        }}
+      </Project>
+      <Project link="https://jeel.co">
+        {{
+          type: "Job",
+          title: "Jeel",
+          decription:
+            "Jeel is a Platform that Provide Payment collection Solutions To Private Schools",
         }}
       </Project>
     </div>
