@@ -17,10 +17,12 @@ const Project = (props) => {
         >
           {props.children.title}
         </a>
-        <p className="mt-2 text-slate-500">{props.children.decription}</p>
+        <p className="mt-2 text-slate-500 dark:text-black">
+          {props.children.decription}
+        </p>
         <div className="flex flex-row justify-end space-x-3 mt-10">
           <Image src="/next-js.svg" alt="next Logo" width={16} height={16} />
-          <FontAwesomeIcon icon={faReact} />
+          <FontAwesomeIcon icon={faReact} className="text-black" />
         </div>
       </div>
     </div>

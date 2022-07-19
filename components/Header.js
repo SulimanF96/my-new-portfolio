@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-col content-center justify-center items-center pt-20">
+    <div className="flex flex-col content-center justify-center items-center">
       <p className="font-light">Hello, I am </p>
       <h1 className="text-3xl font-bold">Suliman Alfowzan</h1>
       <p className="font-light">Frontend Developer</p>

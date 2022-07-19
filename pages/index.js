@@ -9,11 +9,13 @@ export default function Home() {
       <Head>
         <title>Suliman portfolio</title>
       </Head>
-      <div className=" md:container md:mx-auto">
-        {/* <ThemeSwitcher /> */}
-        <Header />
-        <Skills />
-        <Projects />
+      <div className="dark:bg-black dark:text-white min-h-screen h-full">
+        <div className="md:container md:mx-auto ">
+          <ThemeSwitcher />
+          <Header />
+          <Skills />
+          <Projects />
+        </div>
       </div>
     </>
   );
